@@ -1,14 +1,15 @@
 # Auth0 Training Lab
 
+This book is an step by step handson guide to Auth0 platform. 
 
 Structure
 ---------
 
-- 00-setup
-    - auth0 setup
-    - machine setup
+- [Setup](setup/README.md)
+    - [Auth0](setup/auth0.md)
+    - [Your machine](setup/machine.md)
 
-- 01-intro
+- intro
     - SPA quickstart (implicit flow / Lock)
     - Regular Web quickstart (code flow + auth0.js)
     - different types of token and how to validate them (tokens from step 1 and 2, jwt.io)
@@ -19,7 +20,7 @@ Structure
     - Logs
     - Rules (e.g. to customise scopes and add metadata)
 
-- 02-advanced
+- advanced
     - HLP and Embedded login pages
     - SAML
         - SP
