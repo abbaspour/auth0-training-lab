@@ -1,3 +1,5 @@
 # Summary
 
-* [Setup](setup/readme.md)
+* [Setup](setup/README.md)
+* [Intro](intro/README.md)
+* [Advanced](advanced/README.md)

@@ -1,3 +1,6 @@
+Machine Setup
+=============
+
 Here is the list of required software packages:
 
 - curl
