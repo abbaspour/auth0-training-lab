@@ -5,9 +5,9 @@ This book is an step by step handson guide to Auth0 platform.
 Structure
 ---------
 
-- [Setup](setup/README.md)
-    - [Auth0](setup/auth0.md)
-    - [Your machine](setup/machine.md)
+- [Setup](./setup/README.md)
+    - [Auth0](./setup/auth0.md)
+    - [Your machine](./setup/machine.md)
 
 - intro
     - SPA quickstart (implicit flow / Lock)

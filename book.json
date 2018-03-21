@@ -1,0 +1,27 @@
+{
+  "bookname": "Auth0 Training Lab",
+  "search": {
+    "maxIndexSize": 1000000000
+  },
+  "plugins": [
+    "-highlight",
+    "-sharing",
+    "downloadpdf",
+    "sunlight-highlighter",
+    "expandable-chapters-small",
+    "anchors",
+    "bootstrap-callout"
+  ],
+  "ignores": [
+    ".*",
+    "_book",
+    "node_modules"
+  ],
+  "pluginsConfig": {
+    "downloadpdf": {
+      "base": "http://training-lab.forge.auth0.net/pdf",
+      "label": "PDF",
+      "multilingual": false
+    }
+  }
+}
