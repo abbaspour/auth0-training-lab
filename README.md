@@ -26,15 +26,14 @@ This course is split into introduction and advanced sections.
 - [Setup](./setup/README.md)
     - [Auth0](./setup/auth0.md)
     - [Your machine](./setup/machine.md)
-
 - [Intro](./intro/README.md)
-    - [SPA quickstart (implicit flow / Lock)](./intro/spa.md)
-    - [Regular Web quickstart (code flow + auth0.js)](./intro/regular.md)
-    - different types of token and how to validate them (tokens from step 1 and 2, jwt.io)
-    - Browser traffic inspector and HAR files
-    - Social login
+    - [SPA quick-start (implicit flow)](./intro/spa.md)
+    - [Regular Web quick-start (code flow)](./intro/regular.md)
+    - [OAuth 2.0 Flows using command line](./intro/cli.md)
+    - [JWT](./intro/jwt.md)
+    - [Browser Inspector](./intro/inspector.md)
+    - [Social Login](./intro/social.md)
     - Scopes and consent page
-    - Debugger Extension to test various flows in the debugger (e.g. PKCE and RO grant, etc)
     - Logs
     - Rules (e.g. to customise scopes and add metadata)
 
@@ -45,11 +44,11 @@ This course is split into introduction and advanced sections.
         - IdP
         - Between two tenants or between auth0 and aws
     - Custom DB (e.g. migration between tenants)
-    - Delegation 
     - MFA (with OTP)
     - Passwordless (email)
     - Management API (e.g. create 3rd Party clients & search users)
-    - Profiles and account linking
+    - Debugger Extension to test various flows in the debugger (e.g. PKCE and RO grant, etc)
+    - [Profiles and Account Linking](./advanced/profile.md)
     - Authorization (with scopes)
     - SSO (prompt=none flow or new SSO flow, silent login, checkSession and refresh) 
     - LDAP connector (to a custom LDAP server)
